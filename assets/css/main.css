@@ -108,9 +108,28 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hero .hero-text{
+    color: #151875;
+    width: 380px;
+    text-align: center;
+}
+.hero button{
+    padding: 20px 30px;
+    background-color: #FB2E86;
+    border: 0;
+}
+
+.hero .hero-shop a{
+    color: #ffffff;
 }
 
 /* end hero */
+
+
 
 
 /* start footer */
