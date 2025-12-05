@@ -13,6 +13,16 @@ a{
     padding: 0 100px;
 }
 
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/* start header */
 .header .container {
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +59,7 @@ body{
 .search button{
     border: 0;
     background-color: #FB2E86;
+    padding: 3px;
 }
 
 .header form {
@@ -74,6 +85,103 @@ body{
     }    
 }
 
-@media screen and  {
+
+
+/* end header */
+
+
+
+
+/* lorem */
+.lorem {
+    height: 200px;
+}
+/* lorem*/
+
+
+
+/* start hero */
+
+.hero{
+    background-image: url(./../png/hero.png);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end hero */
+
+
+/* start footer */
+
+.footer {
+    background-color: #EEEFFB;
+    padding: 50px 0;
+}
+
+.footer .left{
+    width: calc( (100% - 20px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer .right{
+    width: calc( (100% - 20px) / 2);
+
+}
+
+.footer .left form {
+    border:#E7E6EF;
+    display: flex;
     
 }
+
+.footer .email button{
+    border: 0;
+    background-color: #FB2E86;
+    padding: 10px 15px;
+    color: #EEEFFB;
+}
+
+.email-input{
+    border: 0;
+    padding: 10px 15px;
+}
+
+.conntact-info{
+    color: #8A8FB9;
+}
+
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .right a{
+    color: #8A8FB9;
+}
+
+.footer .footer-list h2{
+    margin-bottom: 40px;
+}
+
+.footer .row{
+    align-items: start;
+}
+
+
+@media screen and (min-width:0) and (max-width:950px) {
+    .footer .container .right , .footer .container .left{
+        width: 100%;
+    }   
+
+}
+
+
+/* end footer */
