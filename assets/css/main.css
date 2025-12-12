@@ -198,6 +198,7 @@ body{
 .hero{
     background-image: url(./../png/hero.png);
     height: 50vh;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
