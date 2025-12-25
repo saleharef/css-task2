@@ -32,7 +32,7 @@ a{
 .header{
     background-color:#F5F5F5 ;
     padding: 20px 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
 
 }
@@ -91,16 +91,76 @@ body{
 
 
 
+/* start tophero section */
 
-/* lorem */
-.lorem {
-    height: 200px;
+.tophero{
+    background-color: #F2F0FF;
+    padding: 50px;
 }
-/* lorem*/
+
+.tophero .row{
+    gap: 50px;
+
+}
+
+.tophero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tophero .tophero-width{
+    width: calc( ( 100% - 50px ) / 2);
+    
+}
+
+.tophero .tophero-p1{
+    color: #FB2E86;
+}
+
+.tophero .tophero-p2{
+    color: #8A8FB9;
+}
+
+.tophero button{
+    padding: 20px 30px;
+    background-color: #FB2E86;
+    border: 0;
+}
+
+.tophero a{
+    color: #ffffff;
+}
+
+.tophero-img{
+   
+}
+
+.tophero-img img{
+    display: flex;
+    width: 400px;
+   
+}
 
 
+@media screen and (max-width: 1000px) {
+    .tophero .tophero-width {
+        width: 100%;
+        margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .tophero-img{
+        display: flex;
+        justify-content: center;
+    }
+}
 
-/* featured section */
+
+/* end tophero section */
+
+
+/* start featured section */
 
 
 .featured-products{
