@@ -306,7 +306,9 @@ body{
 
 .leatest-products .product{
     width: calc( (100% - 60px) /3 );
+    height: 350px;
     padding: 20px;
+    position: relative
 }
 
 .leatest-products .list{
@@ -348,13 +350,9 @@ body{
     color: #151875;
 }
 
-.leatest-products .product-inf .offer{
+.leatest-products .product-inf .l-offer{
     color: #FB2448;
     text-decoration: line-through;
-}
-
-.leatest-products .product{
-    position: relative
 }
 
 .leatest-products .l-product-img-hover{
@@ -362,8 +360,8 @@ body{
     flex-direction: column;
     opacity: 0;
     position: absolute;
-    left: 15px;
-    top: 120px;
+    left: 40px;
+    top: 70px;
     gap: 20px;
 }
 
