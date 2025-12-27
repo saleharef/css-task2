@@ -164,7 +164,7 @@ body{
 
 
 .featured-products{
-    padding: 30px;
+    padding: 50px;
 }
 
 .featured-products h2{
@@ -297,6 +297,11 @@ body{
 
 /* start leatest section */
 
+
+.leatest-products{
+    padding: 50px;
+}
+
 .leatest-products h2{
     text-align: center;
     color: #1A0B5B;
@@ -338,6 +343,13 @@ body{
 }
 
 .leatest-products .product-inf{
+    color: #151875;
+    font-family: Josefin Sans;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction:column ;
+    gap: 10px;
     padding: 5px;
 }
 
@@ -456,6 +468,10 @@ body{
 /* start trending section */
 
 
+.trending{
+    padding: 50px;
+}
+
 .trending h2{
     color: #151875;
     font-family: Josefin Sans;
@@ -523,6 +539,81 @@ body{
 
 
 
+
+
+/* start categories section */
+
+
+.categories{
+    padding: 50px;
+}
+
+.categories h2{
+    color: #151875;
+    font-family: Josefin Sans;
+    text-align: center;
+    padding: 20px;
+}
+
+.categories .categories-products .product{
+    width: calc( (100% - 60px) /4 );
+    height: 350px;
+    padding: 20px;
+}
+
+.categories .categories-info{
+    color: #151875;
+    font-family: Josefin Sans;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction:column ;
+    gap: 10px;
+}
+
+
+.categories .categories-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center ;
+    justify-content:center;
+    padding: 10px;
+    background-color: #F5F6F8;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.categories .categories-img img{
+    height:80% ;
+    width: 80%;
+    
+}
+
+
+@media screen and (max-width: 1250px) {
+   .categories .categories-products .product {
+        width: calc((100% - 60px) / 2);
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .categories .categories-products .product {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* end categories section */
+
+
+
+
+
+
 /* start hero */
 
 
@@ -552,6 +643,14 @@ body{
 
 .hero .hero-shop a{
     color: #ffffff;
+}
+
+@media screen and (max-width: 850px) {
+    .hero {
+        font-size: x-small;
+    }
+
+   
 }
 
 /* end hero */
