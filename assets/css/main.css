@@ -453,6 +453,73 @@ body{
 /* end offer section */
 
 
+/* start trending section */
+
+
+.trending h2{
+    color: #151875;
+    font-family: Josefin Sans;
+    text-align: center;
+    padding: 20px;
+}
+
+.trending .trending-products .product{
+    width: calc( (100% - 60px) /4 );
+    height: 350px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 4px #f7f6f6;
+}
+
+.trending .trending-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center ;
+    justify-content:center;
+    padding: 10px;
+    background-color: #F5F6F8;
+    height: 80%
+}
+
+
+.trending .trending-img img{
+    height: 80%;
+    
+}
+
+
+.trending .trending-info{
+    color: #151875;
+    font-family: Josefin Sans;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction:column ;
+    gap: 10px;
+}
+
+.trending .trending-info .t-offer{
+    color: #a3a4a7;
+    text-decoration: line-through;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+   .trending .trending-products .product {
+        width: calc((100% - 60px) / 2);
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .trending .trending-products .product {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* end trending  section */
 
 
 
@@ -509,8 +576,8 @@ body{
 
 .footer .right{
     width: calc( (100% - 20px) / 2);
-
 }
+
 
 .footer .left form {
     border:#E7E6EF;
@@ -544,6 +611,7 @@ body{
 
 .footer .right a{
     color: #8A8FB9;
+    font-size: small;
 }
 
 .footer .footer-list h2{
