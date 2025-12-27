@@ -592,6 +592,11 @@ body{
 }
 
 
+.categories .categories-products .product:hover .categories-img{
+    box-shadow:  -12px 4px 0 0 #9574e5, 0 0 40px rgba(255, 255, 255, 0.5);
+}
+
+
 @media screen and (max-width: 1250px) {
    .categories .categories-products .product {
         width: calc((100% - 60px) / 2);
