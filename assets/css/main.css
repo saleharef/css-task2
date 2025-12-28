@@ -23,6 +23,8 @@ a{
 
 
 /* start header */
+
+
 .header .container {
     display: flex;
     flex-wrap: wrap;
@@ -609,6 +611,10 @@ body{
         width: 100%;
         margin-bottom: 20px;
     }
+
+    .categories .categories-products{
+        gap: 20px;
+    }
 }
 
 
@@ -659,6 +665,93 @@ body{
 }
 
 /* end hero */
+
+
+/* start blog section */
+
+.blog{
+    padding: 50px;
+}
+
+.blog h2{
+    color: #151875;
+    font-family: Josefin Sans;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.blog .product{
+    display: flex;
+    flex-direction: column;
+    width: calc( (100% - 60px) / 3 );
+    box-shadow: 4px 4px 4px 4px #f7f6f6;
+    gap: 15px;
+}
+
+.blog .product .blog-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center ;
+    justify-content:center;
+
+}
+
+.blog .product .blog-img img{
+    width: 100%;
+}
+
+.blog .product .blog-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.blog .product .blog-span{
+    color: #151875;
+    font-family: Josefin Sans;
+}
+
+.blog .product .blog-span1{
+    margin-right: 20px;
+}
+
+.blog .product .blog-info h3{
+    color: #151875;
+    font-family: Josefin Sans;
+}
+
+.blog .product .blog-info p{
+    color: #72718F;
+    font-family: Lato; 
+}
+
+.blog .product .blog-info a{
+    color: #151875;
+    font-family: Josefin Sans;
+    text-decoration: underline;
+}
+
+
+.blog .product:hover .blog-info h3{
+    color: #FB2E86;
+}
+
+
+.blog .product:hover .blog-info a{
+    color: #FB2E86;
+}
+
+@media screen and (max-width: 850px) {
+    .blog .blog-products .product {
+        width: 100%;
+    }
+
+    .blog .blog-products{
+        gap: 20px;
+    }
+}
+
 
 
 
